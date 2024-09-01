@@ -1,0 +1,52 @@
+{
+    "DeployDevEnvironment": true,
+
+    "DeployResourcesWithPublicAccess": true,
+
+    "DeployWithCustomNetworking": false,
+
+    "Consumer_Assign_RBAC_On_Deployment": true,
+
+    "azureResourceLocation": "eastus2",
+
+    "tags": {
+        "env": "dev"
+    },
+
+    "Entra_Group_for_Consumer": {
+        "Group_ID": "",
+        "Group_Name": ""
+    },
+
+    "NewResourceGroupName": "dataStrategyGHDemoConsumer",
+
+    "DeployNewSynapse": true,
+
+    "DeployNewSynapseArtifacts": true,
+
+    "NewSynapseWorkspaceName": "dsc-vtax-eu2-syn",
+
+    "DeploySynapseWithDataExfiltrationProtection": false,
+
+    "DeployNewAzureSQL": true,
+
+    "DeployNewAzureSQLArtifacts": true,
+
+    "NewAzureSQLServerName": "dsc-vtax-use-sql",
+
+    "DeployNewConsumerMlWorkspace": true,
+
+    "NewMlWorkspaceName": "dsc-vtax-use-mlw",
+
+    "NewMlKeyVaultName": "dsc-vtax-use-mlwkv",
+
+    "NewMlStorageName": "dscvtaxusemlwst",
+
+    "NewMlAppInsightsName": "dsc-vtax-use-mlw-appi",
+
+    "NewMlContainerRegistryName": "dscvtaxusemlwcr",
+
+    "ConnectToExistingPurview": true,
+    "ConnectToExistingLogAnalytics": true,
+    "ConnectToExistingCognitiveService": true
+}
